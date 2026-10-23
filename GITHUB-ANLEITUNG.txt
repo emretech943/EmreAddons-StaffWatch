@@ -1,0 +1,8 @@
+1. https://github.com/new oeffnen und ein PUBLIC oder PRIVATE Repository erstellen (ohne README).
+2. ZIP entpacken. Auf GitHub im Repository Add file > Upload files waehlen.
+3. Den INHALT des Ordners EmreAddons-StaffWatch hochladen, einschliesslich .github/workflows/build.yml. Versteckte .github Ordner unter Windows ggf. anzeigen.
+4. Commit changes klicken.
+5. Actions > Build EmreAddons JAR > Run workflow (oder den automatischen Build nach dem Upload abwarten).
+6. Bei gruenem Build: Workflowlauf oeffnen > Artifacts > EmreAddons-JAR herunterladen.
+7. In der Artifact-ZIP liegt die kompilierte JAR. NICHT die *-sources.jar in mods verwenden.
+8. Bei rotem Build: Log von Build mod schicken. Der Quellcode ist noch nicht erfolgreich kompiliert und kann Fehler enthalten.
